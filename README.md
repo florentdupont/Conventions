@@ -1,6 +1,16 @@
 Conventions
 ===========
 
+Note : les conventions de nommages sont ajoutées le 19/05 et sont encore en cours de ré-adaptation / corrections / rédactions.
+Sur certains parties, il serait judicieux de découper en plusieures conventions différentes : 
+- Convention de codage
+- Conventions de versioning
+- Conventions de conception
+
+Ces Conventions sont mis à disposition en common creatives et peuvent être reprises dans vos société ou vos projets en les gardant telles quelles ou en les adaptant.
+
+
+
 
 
 I - Avant-Propos
