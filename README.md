@@ -115,64 +115,6 @@ Cette organisation est plus a suivre dans un contexte de projet interne.
           LICENCE            Licence sous laquelle l'application est distribuée.
           readme.txt         Description du projet
 
-IV - Gestion des versions
-=========================
-Les numeros de versions des applications développées au LIUM suivent le schéma suivant : `major.minor.revision`.
-
-*Par exemple :* 2.1.13
-
-où:
-
- - **major** : un nombre incrémenté à chaque fois qu'il y'à un saut significatif dans les fonctionnalités.
- - **minor** : un nombre incrémenté seulement lors de fonctionnalités mineures ou lors de correctifs de bugs significatifs.
- - **revision** : un nombre incrémenté quand des correctifs de bugs mineurs sont mis en place.
-
-
-La première version publiée d'un logiciel sera donc la 1.0.0. Toutes les versions en dessous de cette valeur sont considérées comme des versions alpha ou beta, c'est à dire, des versions à usage interne, des versions de tests ou encore des versions qui ne sont pas assez stables pour un déploiement général.
-
-De la même manière, la version 0.9.0 doit être utilisée pour indiquer une version beta. Résumé rapide des étapes de développement :
-
-- **Pre­alpha** : Toutes les fonctionnalités ne sont pas encore développées. Démontre la faisabilité et la structure basique de l'application. (version < 0.7.x)
-- **alpha** : Toutes les fonctionnalités sont développées et l'application est prête pour les tests. (version 0.8.x)
-- **bêta** : version qui a passé les tests système et les tests de régression et qui est maintenant prête pour les bêta­tests, c'est à dire, des tests en conditions réel avec des vrais utilisateurs. (version 0.9.x)
-- **Release** : Produit final (version >= 1.0.0). N.B. :
-
-Il existe d'autres termes spécifiques à certains projets, entreprises ...
- - EA : Early Access, version Alpha 
-
-Chez Eclipse par exemple, on a les termes suivantes.
-
- - Milestone (Mx) : version en cours de développement. Probablement pas pleinement fonctionnelle. Pas sûr qu'elle soit stable. Comporte encore potentiellement des problèmes.
- - Release Candidate (RCx). version Bêta en cours de tests et correction mineure et potentiellement candidate pour devenir la première version Release (Eclipse notamment utilise cette numérotation)
- - GA (General Availability) : première version "release" offcielle. Stable et pleinement fonctionnelle.
- - Service Release (SR) : mise à jour corrective sur la version release. plusieurs versions : SR1, SR2, etc.
-
-
-Avec Maven, on parle de version SNAPSHOT pour les versions en cours de développement.
-
-    1.0-SNAPSHOT
-En prenant soin `1.0-SNAPSHOT` de  
-
-Ce chapitre est une copie de ce que l'on peut trouver ici :
- 
- - Gestion des numéros de version : http://en.wikipedia.org/wiki/Software_version
- - Les étapes de développement : http://en.wikipedia.org/wiki/Development_stage
-
-V - Subversion
-==============
-
-
-Les utilisateurs anonymes peuvent y accéder en lecture, les authentifiés peuvent y écrire.
-
-Les conventions reconnues de Subversion s'y appliquent.
-
-Pour les différentes composantes d'un même projet, le projet devra porter un préfixe montrant à quel projet global il appartient.
-
-> *Exemple* : pour les projets Toto, il faut utiliser le préfi xTotr  :Totor_Client, Totor_Server,n, ...
-
-L'utilisation de subversion dans Eclipse se fait via le plugin subclispe : http://subclipse.tigris.org
-
-Voir l'Annexe I pour des détails sur la gestion des branches et tags.
 
 VI - Formattage
 ===============
