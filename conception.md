@@ -1,4 +1,0 @@
- Conventions de conception Java
- ==============================
-
- 
